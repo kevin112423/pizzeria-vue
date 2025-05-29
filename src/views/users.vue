@@ -62,7 +62,7 @@ export default {
         },
         async deleteUser(id) {
             const result = await Swal.fire({
-                title: `¿Deseas eliminar el usuario con ID ${id}?`,
+                title: `¿Deseas eliminar el usuario ${id}?`,
                 showCancelButton: true,
                 confirmButtonText: 'Eliminar',
                 cancelButtonText: 'Cancelar',
